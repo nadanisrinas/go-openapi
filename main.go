@@ -9,7 +9,7 @@ import (
 
 func main() {
 
-	apiKey := "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"
+	apiKey := ""
 	apiUrl := "https://api.openai.com/v1/chat/completions"
 	scanner := bufio.NewScanner(os.Stdin)
 	fmt.Println("Enter your message: ")
